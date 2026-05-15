@@ -13,7 +13,7 @@ export function Hero() {
           height={1080}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--navy-deep)]/70 via-[color:var(--navy-deep)]/40 to-[color:var(--navy-deep)]" />
-        
+        <div className="absolute inset-0 bg-grid opacity-50" />
       </div>
 
       {/* glowing orbs */}
