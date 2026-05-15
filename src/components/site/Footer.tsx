@@ -1,5 +1,5 @@
 import { Linkedin, Twitter, Facebook } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
-            <img src={logo} alt="Sama Misr" className="h-12 w-auto rounded-md ring-1 ring-white/10" />
+            <Logo iconSize={48} textClassName="text-3xl text-white" />
             <p className="mt-6 text-white/60 max-w-sm leading-relaxed">
               Industrial chemicals and raw material solutions for ceramics, textiles, glass, detergents, and sanitary ware manufacturers.
             </p>
