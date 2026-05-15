@@ -1,5 +1,5 @@
 import { Linkedin, Twitter, Facebook } from "lucide-react";
-import logo from "@/assets/logo.jpg";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
