@@ -28,8 +28,8 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-3 group">
-          <img src={logo} alt="Sama Misr" className="h-10 w-auto rounded-md ring-1 ring-white/10" />
+        <a href="#top" className="flex items-center gap-3 group text-white">
+          <Logo iconSize={44} textClassName="text-2xl md:text-3xl text-white" />
         </a>
         <nav className="hidden lg:flex items-center gap-10">
           {links.map((l) => (
