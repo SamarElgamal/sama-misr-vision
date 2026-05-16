@@ -3,9 +3,9 @@ import { FlaskConical, Atom, Beaker, Truck } from "lucide-react";
 const solutions = [
   {
     icon: Atom,
-    title: "Ceramic & Glass Raw Materials",
-    desc: "Core feedstocks for tiles, sanitary ware, frits, and glass manufacturing.",
-    items: ["Zirconium silicate", "Zirconium sand", "Zinc oxide 95%", "Hydroboracite"],
+    title: "Raw Materials",
+    desc: "Core feedstocks for ceramics, glass, sanitary ware, and industrial manufacturing.",
+    items: ["Zirconium silicate", "Zirconium sand", "Hydroboracite", "Zinc oxide (various grades)"],
   },
   {
     icon: FlaskConical,
@@ -15,13 +15,13 @@ const solutions = [
   },
   {
     icon: Beaker,
-    title: "Specialty & Functional Additives",
-    desc: "Performance additives for detergents, ceramics, and water treatment.",
+    title: "Specialty Chemicals",
+    desc: "Functional additives for detergents, water treatment, and industrial formulations.",
     items: ["Sodium tripolyphosphate (STPP)", "Barium carbonate"],
   },
   {
     icon: Truck,
-    title: "Industrial Supply Solutions",
+    title: "Industrial Supply",
     desc: "End-to-end logistics, storage, and just-in-time delivery across the region.",
     items: ["Bonded warehousing", "Custom packaging", "Regulatory support"],
   },
