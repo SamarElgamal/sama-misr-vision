@@ -3,21 +3,21 @@ import { FlaskConical, Atom, Beaker, Truck } from "lucide-react";
 const solutions = [
   {
     icon: Atom,
-    title: "Industrial Raw Materials",
-    desc: "Bulk inorganic and organic raw materials sourced from accredited global producers.",
-    items: ["Mineral feedstocks", "Solvents & acids", "Polymer precursors"],
+    title: "Ceramic & Glass Raw Materials",
+    desc: "Core feedstocks for tiles, sanitary ware, frits, and glass manufacturing.",
+    items: ["Zirconium silicate", "Zirconium sand", "Zinc oxide 95%", "Hydroboracite"],
   },
   {
     icon: FlaskConical,
-    title: "Specialty Chemicals",
-    desc: "High-performance formulations engineered for demanding industrial processes.",
-    items: ["Surfactants", "Pigments & dispersions", "Functional additives"],
+    title: "Pigments & Opacifiers",
+    desc: "High-purity whites and opacifiers for coatings, plastics, and ceramic glazes.",
+    items: ["Titanium dioxide", "Whitener", "Zinc oxide 99.9%"],
   },
   {
     icon: Beaker,
-    title: "Manufacturing Additives",
-    desc: "Process aids that improve yield, consistency, and end-product quality.",
-    items: ["Binders & plasticizers", "Defoamers", "Performance modifiers"],
+    title: "Specialty & Functional Additives",
+    desc: "Performance additives for detergents, ceramics, and water treatment.",
+    items: ["Sodium tripolyphosphate (STPP)", "Barium carbonate"],
   },
   {
     icon: Truck,
